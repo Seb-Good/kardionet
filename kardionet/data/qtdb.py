@@ -51,8 +51,14 @@ class QTDB(object):
 
     def _create_folders(self):
         """Create a folders for raw and processed data."""
+        # Raw data path
         if not os.path.exists(self.raw_path):
             os.makedirs(self.raw_path)
+        with open(os.path.join(self.raw_path, '.gitignore'), 'w') as file:
+            file.write('*\n!.gitignore')
 
+        # Processed data path
         if not os.path.exists(self.processed_path):
             os.makedirs(self.processed_path)
+        with open(os.path.join(self.processed_path, '.gitignore'), 'w') as file:
+            file.write('*\n!.gitignore')
