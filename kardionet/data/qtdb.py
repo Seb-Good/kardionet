@@ -1,6 +1,6 @@
 """
 qtdb.py
---------
+-------
 This module provides classes and methods for creating the QT database.
 By: Sebastian D. Goodfellow and Noel Kippers, 2019
 """
