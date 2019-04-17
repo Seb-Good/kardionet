@@ -14,5 +14,5 @@ excerpts of two channel ECGs, selected to avoid significant baseline wander or o
 ## References
 1. Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PCh, Mark RG, Mietus JE, Moody GB, Peng C-K, Stanley HE. 
 PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals. 
-Circulation 101(23):e215-e220 [Circulation Electronic Pages; http://circ.ahajournals.org/content/101/23/e215.full]; 
+Circulation 101(23):e215-e220 (http://circ.ahajournals.org/content/101/23/e215.full); 
 2000 (June 13).
