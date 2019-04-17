@@ -2,7 +2,7 @@
 config.py
 ---------
 Config variables for the project.
-By: Sebastian D. Goodfellow, Ph.D., Noel Kippers, Ph.D., 2019
+By: Sebastian D. Goodfellow and Noel Kippers, 2019
 """
 
 # Compatibility imports
