@@ -2,7 +2,7 @@
 Automatic ECG segmentation using deep learning.
 
 ### The QT Database
-The QT Database includes ECGs which were chosen to represent a wide variety of QRS and ST-T morphologies, in order to 
+The [QT Database](https://physionet.org/physiobank/database/qtdb/) includes ECGs which were chosen to represent a wide variety of QRS and ST-T morphologies, in order to 
 challenge QT detection algorithms with real-world variability. The QT Database contains a total of 105 fifteen-minute 
 excerpts of two channel ECGs, selected to avoid significant baseline wander or other artifacts. 
 
