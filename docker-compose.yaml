@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dev_env:
+    build: .
+    container_name: kardionet
+    volumes:
+     - ./:/kardionet
+     - /tmp:/tmp
+    ports:
+     - "127.0.0.1:8888:8888"
+    stdin_open: true
+    tty: true
