@@ -1,5 +1,5 @@
 """Setup for KardioNet"""
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='kardionet',
@@ -9,6 +9,12 @@ setup(
     author='Sebastian D. Goodfellow, Ph.D., Noel Kippers, Ph.D.',
     license='MIT',
     keywords='deep learning',
-    package_dir={'': 'kardionet'},
     zip_safe=False,
+    packages=find_packages(exclude=['tests']),
+    test_suite='tests',
+    include_package_data=True,
+    install_requires=[],
+    setup_requires=[],
+    tests_require=[],
+    entry_points={'console_scripts': ['kardionet=kardionet.__main__:cli'], },
 )
