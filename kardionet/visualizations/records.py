@@ -16,7 +16,7 @@ from ipywidgets import interact, fixed
 from ipywidgets.widgets import IntSlider
 
 # Local imports
-from kardionet.config.config import DATA_DIR
+from kardionet import DATA_DIR
 from kardionet.data.record import Record
 
 
