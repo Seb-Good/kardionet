@@ -1,7 +1,5 @@
-"""
-record.py
----------
-This module provides a class and methods for processing a database record.
+"""This module provides a class and methods for processing a database record.
+
 By: Sebastian D. Goodfellow and Noel Kippers, 2019
 """
 
@@ -14,7 +12,7 @@ import pandas as pd
 import matplotlib.pylab as plt
 
 # Local imports
-from kardionet.config.config import DATA_DIR
+from kardionet import DATA_DIR
 
 
 class Record(object):
