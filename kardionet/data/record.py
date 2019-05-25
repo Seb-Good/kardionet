@@ -1,5 +1,6 @@
-"""This module provides a class and methods for processing a database record.
-
+"""
+record.py
+This module provides a class and methods for processing a database record.
 By: Sebastian D. Goodfellow and Noel Kippers, 2019
 """
 

@@ -1,5 +1,6 @@
-"""This module provides a class and methods for extracting the QT database.
-
+"""
+qtdb.py
+This module provides a class and methods for extracting the QT database.
 By: Sebastian D. Goodfellow and Noel Kippers, 2019
 """
 import os
@@ -15,8 +16,9 @@ LOGGER.setLevel(logging.INFO)
 
 
 class QTDB(object):
-    """The QT Database.
 
+    """
+    The QT Database.
     https://physionet.org/physiobank/database/qtdb/
     """
 

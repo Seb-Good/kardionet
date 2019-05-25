@@ -1,6 +1,5 @@
 """
 records.py
--------
 This module provides functions for visualizing records and labels.
 By: Sebastian D. Goodfellow and Noel Kippers, 2019
 """
@@ -113,5 +112,5 @@ def plot_records():
     _ = interact(
         plot_record,
         record_name_id=IntSlider(value=0, min=0, max=len(record_names)-1, description='record_name', disabled=False),
-        record_names = fixed(record_names)
+        record_names=fixed(record_names)
     )
